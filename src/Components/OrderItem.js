@@ -26,6 +26,9 @@ const OrderItem = ({ order }) => {
           ))}
         </ul>
       </div>
+      <div>
+        <strong>Status:</strong>{order.state}
+      </div>
       <hr />
     </li>
   );
